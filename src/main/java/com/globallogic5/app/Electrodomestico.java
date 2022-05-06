@@ -8,10 +8,27 @@ public class Electrodomestico
     private String color;
 	
 	public void encender() {
-		System.out.println("Encendiendo");
+		System.out.println("Encendiendo electrodomestico");
 	}
 	
 	public void apagar() {
-		System.out.println("Apagando");
+		System.out.println("Apagando electrodomestico");
 	}
+
+	public String getMarca() {
+		return marca;
+	}
+
+	public void setMarca(String marca) {
+		this.marca = marca;
+	}
+
+	public String getColor() {
+		return color;
+	}
+
+	public void setColor(String color) {
+		this.color = color;
+	}
+
 }

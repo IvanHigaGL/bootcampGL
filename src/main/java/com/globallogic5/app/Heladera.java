@@ -14,4 +14,9 @@ public class Heladera extends Electrodomestico
 	public void extraerElemento(String elemento) {
 		System.out.println("Se extrajo el elemento: " + elemento);
 	}
+	
+	//Polimorfismo
+	public void encender() {
+		System.out.println("Encendiendo heladera");
+	}
 }
